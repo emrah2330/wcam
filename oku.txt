@@ -1,0 +1,10 @@
+visualize; kaydý gösteriyor
+
+dinlediðim port 8000
+
+çalýþtýrmak için 
+
+öncelikle komut satýrý veya git bash o klasörde açýp
+ekrana nodemon app.js yaz
+
+daha sonra tarayýcýda localhost:8000 yazman yeterli
