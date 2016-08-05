@@ -10,6 +10,14 @@ app.get('/',function(req,res){
 	res.sendFile(__dirname+'/index.html');
 });
 
+app.get('/kayit.html',function(req,res){
+	res.sendFile(__dirname+'/kayit.html');
+});
+
+app.get('/canli.html',function(req,res){
+	res.sendFile(__dirname+'/canli.html');
+});
+
 
 io.on('connection',function(socket){
 	socket.on('stream',function(image){
