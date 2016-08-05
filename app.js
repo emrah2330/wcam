@@ -5,12 +5,10 @@ var io=require("socket.io")(http);
 var Log = require('log'),
 	log = new Log('debug')
 
-var port = process.env.PORT || 5000;
-
-app.use(express.static(__dirname + "/public"));
+var port = Number(process.env.PORT || 5000);
 
 app.get('/',function(req,res){
-	res.redirect('index.html');
+	res.sendFile(__dirname+'/index.html');
 });
 
 
