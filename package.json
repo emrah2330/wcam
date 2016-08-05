@@ -2,12 +2,6 @@
   "name": "node",
   "version": "1.0.0",
   "description": "node canlı yayın",
-	"dependencies":{
-		"socket.io":"*",
-		"express":"*",
-		"log":"*"
-		
-	}
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
